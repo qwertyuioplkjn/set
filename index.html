@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>set</title>
+    <title>From</title>
 </head>
 <body>
-    <h1>I am coming</h1>
+    <h1>Welcome to my From</h1>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+
+        <label for="email">Your Email
+            <input id="email" type="email" placeholder="Your Email">
+        </label>
+        <label for="phone">Your Phone Number
+            <input id="phone" type="number" placeholder="Your Phone Number">
+        </label>
+        <fieldset>
+            <legend>Chose a pitha</legend>
+            <label for="Chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                vapa
+            </label>
+            <label for="Coconut">
+                <input type="radio" name="pitha" id="Coconut">
+                Coconut
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Chose your favorite vortas</legend>
+            <label for="sorisha">
+                <input type="checkbox" name="vortas" id="sorisha">
+            Sorisha
+            </label>
+            <label for="shotki">
+                <input type="checkbox" name="vortas" id="shotki">
+                Shotki
+            </label>
+            <label for="dal">
+                <input type="checkbox" name="vortas" id="dal">
+                Dal
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Spacial instruction</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Cancel">
+        <input type="submit" value="Submit">
+        
+    </form>
 </body>
 </html>
